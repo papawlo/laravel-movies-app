@@ -8,6 +8,8 @@
     <title>Movie App</title>
     <link rel="stylesheet" href="/css/main.css">
     <livewire:styles>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
 </head>
 
 <body class="font-sans bg-gray-900 text-white">
@@ -34,10 +36,10 @@
             </ul>
             <div class="flex flex-col md:flex-row items-center">
                 <livewire:search-dropdown>
-                <div class="md:ml-4 mt-3 md:mt-0">
-                    <a href="http://">
-                        <img src="/img/avatar.jpg" alt="avatar" class="rounded-full w-8 h-8"></a>
-                </div>
+                    <div class="md:ml-4 mt-3 md:mt-0">
+                        <a href="http://">
+                            <img src="/img/avatar.jpg" alt="avatar" class="rounded-full w-8 h-8"></a>
+                    </div>
             </div>
         </div>
     </nav>
