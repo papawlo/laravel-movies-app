@@ -76,7 +76,7 @@
                     <a href="{{ $movie['linkToPage'] }}"><img src="{{ $movie['poster_path'] }}" alt="poster"
                             class="hover:opacity-75 transition ease-in-out duration-150"></a>
                     <a href="{{ $movie['linkToPage'] }}"
-                        class="text-sm leading-normal block text-gray-400 hover:text-white mt-1">{{ $movie['title'] }}</a>
+                        class="text-sm leading-normal block text-yellow-400 hover:text-yellow-600 mt-1">{{ $movie['title'] }}</a>
                 </div>
 
                 @endforeach
